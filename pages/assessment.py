@@ -1,6 +1,4 @@
 import streamlit as st
-
-st.image("logo.png", width=200)
 from utils import predict_cost, calculate_gap, risk_score, recommendation
 
 st.title("Assessment")
