@@ -13,3 +13,9 @@ Use the sidebar to navigate through features:
 - Schemes
 - Advisor
 """)
+
+st.set_page_config(
+    page_title="Finsure",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
